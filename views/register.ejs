@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Employee Contact Form</h1>
+    <form method="post" action="/register">
+      <label for="name">Employee Full Name:</label>
+      <input type="text" id="name" name="name">
+
+      <label for="job">Job Title:</label>
+      <input type="text" id="job" name="job">
+
+      <label for="number">Phone Number:</label>
+      <input type="text" id="number" name="number">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address">
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city">
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state">
+
+      <label for="primaryEmergencyContact">Primary Emergency Contact:</label>
+      <input type="text" id="primaryEmergencyContact" name="primaryEmergencyContact">
+
+      <label for="PEnumber">Phone Number:</label>
+      <input type="text" id="PEnumber" name="PEnumber">
+
+      <label for="PErelationship">Relationship:</label>
+      <input type="text" id="PErelationship" name="PErelationship">
+
+      <label for="secondaryEmergencyContact">Secondary Emergency Contact:</label>
+      <input type="text" id="secondaryEmergencyContact" name="secondaryEmergencyContact">
+
+      <label for="SEnumber">Phone Number:</label>
+      <input type="text" id="SEnumber" name="SEnumber">
+
+      <label for="SErelationship">Relationship:</label>
+      <input type="text" id="SErelationship" name="SErelationship">
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
